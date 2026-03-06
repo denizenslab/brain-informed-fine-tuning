@@ -1,0 +1,11 @@
+torch>=2.0
+transformers>=4.30,<5
+datasets>=2.0,<4
+numpy>=1.24
+pandas>=2.1
+scikit-learn>=1.4
+matplotlib>=3.8
+tqdm>=4.65
+natsort>=8.4
+voxelwise_tutorials>=0.1.7
+himalaya>=0.4.6
