@@ -37,6 +37,7 @@ This repository provides the implementation of brain-informed fine-tuning techni
    ```bash
    python brain-informed-fine-tuning/brain_informed_finetuning.py --input_dir stimuli --sequence_length 20 --subject 07 --modality listening --tune all --loss mse --model bert-base-uncased
    ```
+You can also try this using the [bilingual (Chinese–English) fMRI dataset](https://gin.g-node.org/denizenslab/narratives_bilingualism_zh_en_fMRI). Download the responses and stimuli from the link and update the paths in `brain-informed-fine-tuning/config.py` accordingly before running the scripts.
 
 ### Outputs
 - The fine-tuned model weights will be saved in the `weights/` directory.
